@@ -17,8 +17,13 @@
 
 ## Запуск:
 
-Из терминала:
-    ```g++ main.cpp de_allocate.cpp iof.cpp configurations.cpp equations.cpp newton.cpp riemann.cpp -o main; ./main```
+Из терминала:  
+```bash
+g++ main.cpp de_allocate.cpp iof.cpp configurations.cpp equations.cpp newton.cpp riemann.cpp -o main
+./main
+```
 
 Чтобы построить графики (так же из терминала):
-    ```python3 graphs/graphs.py```
+```bash
+python3 graphs/graphs.py
+```
